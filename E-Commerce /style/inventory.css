@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2019, 10:32:45 AM
+    Author     : vincentdang
+*/
+
+body{
+    margin: 0px;
+    background-color: #191919; 
+}
+
+.top{
+    padding: 10px;
+}
+
+.top > .left > .categories{
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.top > .left > .categories > a{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.5s;
+    float:right;
+    font-family: "Verdana", sans-serif;
+}
+
+.top>.right div{
+    font-family: "Verdana", sans-serif;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.vheader{
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	font-family: "Verdana", sans-serif;
+	
+}
+
+table.invt
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.buttons
+{
+	background-color:black;
+	border-color:black;
+	color:white;
+}
+
+.buttons:hover
+{
+	border-color:white;
+}
+.recentlyViewed
+{
+	color: white;
+}

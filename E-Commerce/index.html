@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Hello! </title>
+    <link rel="stylesheet" type= "text/css" href="style/home.css" />
+</head>
+
+<body>
+    <div class ="top">
+        <div class ="left">
+            <div class ="categories">
+				<a href ="ADDTOCART?COLOR=&TRANS=&productID=" > <img src = "images/icons/cart.png" alt ="cartIcon" class="cartIcon" style ="width:20px; height:20px;"> </a>
+                <a href ="About.html" >ABOUT US</a>
+               	<a href ="inventory">INVENTORY</a>
+                <a href ="index.html">HOME</a>
+            </div>                
+        </div>
+        <div class ="right">
+            <div>VINCENT H. DANG's E-Commerce Site</div>
+        </div>        
+    </div>
+    
+    <div class ="hbox" onmouseover ="reveal();">
+    	<form action ="inventory">
+    		<button type="submit" name = "enter132" value = "enter123">Enter Site</button>    
+    	</form>
+    </div>
+	
+    
+    <div class ="home_bottom">
+        <div class ="home_images">
+            <div class ="home_Banner">
+                <img src ="images/icons/bg.jpg" alt ="road" style ="width:100%;height:890px">
+            </div>
+        </div>    
+    </div>
+    
+    
+    <script>
+        function reveal()
+        {
+            document.getElementByClassname("hbox").style.display="block";
+        }
+    </script>
+        
+</body>  
+</html>

@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    background-color: #000000;
+}
+
+.top{
+    padding: 10px;
+}
+
+.top > .left > .categories{
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.top > .left > .categories > a{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.5s;
+    float:right;
+    font-family: "Verdana", sans-serif;
+}
+
+.OrderInfo
+{
+    color:white;
+    padding-left:500px;
+    padding-top:100px;
+}
+
+.customerInfo
+{
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+}

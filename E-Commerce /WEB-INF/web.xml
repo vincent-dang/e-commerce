@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>com.servlet.Servlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/inventory</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ProductServlet</servlet-name>
+		<servlet-class>com.servlet.ProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/product</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RecentVisits</servlet-name>
+		<servlet-class>com.servlet.RecentVisits</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecentVisits</servlet-name>
+		<url-pattern>/RecentVisits</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ADDTOCART</servlet-name>
+		<servlet-class>com.servlet.ADDTOCART</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ADDTOCART</servlet-name>
+		<url-pattern>/ADDTOCART</url-pattern>
+	</servlet-mapping>	
+	
+		<servlet>
+		<servlet-name>process</servlet-name>
+		<servlet-class>com.servlet.process</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>process</servlet-name>
+		<url-pattern>/process</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>Confirm</servlet-name>
+		<servlet-class>com.servlet.Confirm</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Confirm</servlet-name>
+		<url-pattern>/Confirm</url-pattern>
+	</servlet-mapping>			
+	
+</web-app>
